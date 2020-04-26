@@ -25,8 +25,8 @@ func init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
 	mysqlConn := "physpeach:@tcp(127.0.0.1:3306)/KeijibanToy?charset=utf8"
     if err := orm.RegisterDataBase("default", "mysql", mysqlConn); err != nil {
-        panic(err)
-    }
+		panic(err)
+	}
 }
 
 // AddPost insert a new Post into database and returns
