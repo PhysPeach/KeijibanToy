@@ -5,8 +5,6 @@ import (
 
 	_ "KeijibanToy/routers"
 	"github.com/astaxie/beego"
-
-	_ "KeijibanToy/models"
 )
 
 func main() {
