@@ -1,0 +1,111 @@
+body{
+    color: #333333;
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+}
+body p{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+body h1{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+body h2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+header {
+    background-color: #efefef;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+footer {
+    background-color: #efefef;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+footer p{
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.postForm {
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+
+.inputName {
+    box-sizing: border-box;
+    width: 390px;
+    height: 27px;
+    margin: 4px 0;
+    font-size: 16px;
+    color: #333;
+    border: 0;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    border-left: none;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+  }
+  .inputName:focus {
+    border: 1px solid #00b5ad;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.inputText {
+    box-sizing: border-box;
+    width: 70%;
+    height: 30px;
+    padding: 0 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    outline: 0;
+    transition: 0.3s;
+    -webkit-appearance: none;
+  }
+  .inputText:focus {
+    border: 1px solid #00b5ad;
+  }
+
+.submit {
+    display: inline-block;
+    padding: 0.4em 1.6em;
+    font-size: 0.8rem;
+    color: #222;
+    text-decoration: none;
+    user-select: none;
+    border: 1px #ccc solid;
+    border-radius: 20px;
+    transition: 0.4s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .submit:hover {
+    color: #fff;
+    background: #ccc;
+}
+
+.post{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px #ccc solid;
+}

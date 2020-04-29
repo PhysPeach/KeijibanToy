@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>PhysPeach掲示板</title>
   <meta name="description" content="簡単なシングルスレッド掲示板">
+  <link rel="stylesheet" href="/static/css/style.css" type="text/css" />
 </head>
 
 <body>
@@ -20,7 +21,7 @@
       <br>
       <input type="text" class="inputText" name="inputText" placeholder="コメント" />
       <br>
-      <input type="submit" value="書き込む">
+      <input type="submit" class="submit" value="書き込む">
     </p>
   </form>
   <session class="posts">
