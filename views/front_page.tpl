@@ -13,12 +13,12 @@
       喜んでコメントしろ！
     </p>
   </header>
-  <form class="postForm">
+  <form class="postForm" action="/post" method="post">
     <h1>投稿<h1>
     <p>
-      <input type="text" class="inputName" placeholder="名前" />
+      <input type="text" class="inputName" name="inputName" placeholder="名前" />
       <br>
-      <input type="text" class="inputComment" placeholder="コメント" />
+      <input type="text" class="inputText" name="inputText" placeholder="コメント" />
       <br>
       <input type="submit" value="書き込む">
     </p>
