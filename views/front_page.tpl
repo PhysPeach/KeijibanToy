@@ -14,8 +14,8 @@
     </p>
   </header>
   <form class="postForm">
+    <h1>投稿<h1>
     <p>
-      <h1>投稿<h1>
       <input type="text" class="inputName" placeholder="名前" />
       <br>
       <input type="text" class="inputComment" placeholder="コメント" />
