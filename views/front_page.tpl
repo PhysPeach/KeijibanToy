@@ -23,8 +23,14 @@
       <input type="submit" value="書き込む">
     </p>
   </form>
-  <session class="comments">
-  
+  <session class="posts">
+  <h1>これまでの書き込み</h1>
+  {{range $key, $post := .posts}}
+    <div class="post">
+      <h2>{{$post.Name}} さんの書き込み({{$post.Created}}):</h2>
+      <p>{{$post.Text}}</p>
+    </div>
+  {{end}}
   </session>
   <footer>
     <p>

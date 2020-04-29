@@ -30,7 +30,7 @@ func GetAllPosts() []Post {
 	o := orm.NewOrm()
 	
 	var posts []Post
-    o.QueryTable(new(Post)).All(&posts)
+    o.QueryTable(new(Post)).OrderBy("-created").All(&posts)
 
     return posts
 }
